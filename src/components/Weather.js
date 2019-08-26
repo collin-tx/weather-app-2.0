@@ -4,13 +4,13 @@ import WeatherList from './WeatherList';
 export default class Weather extends Component {
     state = {
         data: [],
-		city: 'Dallas',
+		city: '',
 		loading: false,
 		error: ''
 	}
 	
 	componentDidMount = () => {
-		this.makeRequest();
+		//this.makeRequest();
 	}
 
 	makeRequest = () => {
